@@ -1,0 +1,22 @@
+.btn:focus, .upload-btn:focus{
+  outline: 0 !important;
+}
+
+.upload-btn {
+  color: #ffffff;
+  background-color: rgb(248, 54, 6);
+  border: none;
+}
+
+.upload-btn:hover,
+.upload-btn:focus,
+.upload-btn:active,
+.upload-btn.active {
+  color: #ffffff;
+  background-color: rgb(216, 27, 2);
+  border: none;
+}
+
+#uploadInput {
+  display: none;
+}
